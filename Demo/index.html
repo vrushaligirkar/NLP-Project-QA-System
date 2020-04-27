@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>QA System Demo</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="css/demo.css" rel="stylesheet">	
+	<!-- Bootstrap Date-Picker Plugin -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  </head>
+  <body>
+  <div class="container">
+	  <div class="row">
+		  <div class="col-12">
+			<form class="form-signin" id="formSignUp" method="POST" role="form">
+			  <div class="form-group">
+				  <div class="form-row">
+					<div class="col-6">
+						<label><h3>Context</h3></label>
+						<div>The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse ("Norman" comes from "Norseman") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants would gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, and it continued to evolve over the succeeding centuries.</div>
+					</div>
+					<div class="col-6" style="padding-left: 3rem;">
+						<div class="form-row">
+							<label><h3>Questions</h3></label>
+						</div>
+						<div class="form-row">
+						  <div class="d-block">
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q1" name="Q1">
+									<label class="custom-control-label" for="Q1">In what country is Normandy located?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q2" name="Q2">
+									<label class="custom-control-label" for="Q2">When were the Normans in Normandy?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q3" name="Q3">
+									<label class="custom-control-label" for="Q3">From which countries did the Norse originate?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q4" name="Q4">
+									<label class="custom-control-label" for="Q4">Who was the Norse leader?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q5" name="Q5">
+									<label class="custom-control-label" for="Q5">What century did the Normans first gain their separate identity?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q6" name="Q6">
+									<label class="custom-control-label" for="Q6">Who gave their name to Normandy in the 1000's and 1100's?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q7" name="Q7">
+									<label class="custom-control-label" for="Q7">What is France a region of?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q8" name="Q8">
+									<label class="custom-control-label" for="Q8">Who did King Charles III swear fealty to?</label>
+								</div>
+								<div class="custom-control custom-radio">
+									<input type="radio" class="custom-control-input" id="Q9" name="Q9">
+									<label class="custom-control-label" for="Q9">When did the Frankish identity emerge?</label>
+								</div>
+						  </div>
+						 </div>
+					</div>
+				  </div>
+			  </div>
+			  <div class="form-group">
+				<div class="form-row">
+					<button class="btn btn-lg btn-primary btn-block" type="submit" id="buttonSubmit">Get answer</button>
+				</div>
+			  </div>
+			  <div class="form-group">
+				<div class="form-row">
+				   <label><h3>Correct answer</h3></label>
+				</div>
+				<div class="form-row">
+				   <div>Enter answer here</div>
+				</div>
+			  </div>
+			  <div class="form-group">
+				<div class="form-row">
+				   <label><h3>Predicted answer</h3></label>
+				</div>
+				<div class="form-row">
+				   <div>Enter answer here</div>
+				</div>
+			  </div>
+			</form>
+		  </div>  
+	  </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+	<script src="js/demo.js" charset="UTF-8"></script>
+  </body>
+</html>
